@@ -38,6 +38,7 @@ namespace Pz0429_Library.Helpers
                 if (autoSacurity)
                    return $@" {temp}Trusted_Connection=True";
                 return $@"{temp}User Id={userId};Password={password};";
+            //some comment
 
         }
 
